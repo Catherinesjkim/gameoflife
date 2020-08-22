@@ -1,5 +1,5 @@
 body {
-  background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/squares.png) 
+  background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/circle-blues.png) 
 }
   
 .box {
@@ -16,7 +16,7 @@ body {
 }
 
 .on {
-  background-color: green;
+  background-color: #FF00FF;
 }
   
 .box:hover { 

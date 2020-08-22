@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { ButtonToolbar, Dropdown, DropdownButton } from 'react-bootstrap';
+// import App from './App';
+import { ButtonToolbar, Dropdown, DropdownButton, Link } from 'react-bootstrap';
 
 class Box extends React.Component {
   selectBox = () => {
@@ -244,6 +245,7 @@ class Main extends React.Component {
     );
   }
 }
+
 
 // will clone all of the arrays inside of an array
 function arrayClone(arr) {
