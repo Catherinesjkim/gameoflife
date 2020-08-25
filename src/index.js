@@ -90,7 +90,7 @@ class Buttons extends React.Component {
             <Dropdown.Item eventKey="3">70x40</Dropdown.Item>
           </DropdownButton>
           <>
-            <Button href="https://github.com/Catherinesjkim/Conways-Game-of-Life/blob/master/README.md">
+            <Button href="https://github.com/Catherinesjkim/gameoflife/blob/master/README.md">
               Link
             </Button>{" "}
           </>

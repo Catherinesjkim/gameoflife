@@ -10,7 +10,7 @@ export default function About() {
         <a
           target="_blank"
           rel="noreferrer noopener"
-          href="https://github.com/Catherinesjkim/Conways-Game-of-Life/blob/master/README.md">
+          href="https://github.com/Catherinesjkim/gameoflife/blob/master/README.md">
           How I implemented Conway's Game of Life Blinker with Go
         </a>
       </p>
