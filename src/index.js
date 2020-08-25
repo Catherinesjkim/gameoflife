@@ -103,6 +103,9 @@ class Buttons extends React.Component {
 // state variable will be saved as state in the Main component which in charge of that variable.
 // pass that variable to other components, that variable is going to become props. 
 // state variable changes, it will automatically propagate to other components
+/*
+Double Buffering: There are two arrays of data for the automaton. One of them holds the data that the user currently sees on the canvas. The other one is where the next frame to be shown is being actively constructed. After the new frame is constructed, the next frame becomes the current frame, and the current frame becomes the next frame. And the process repeats.
+*/
 class Main extends React.Component {
   // define the state
   constructor() {
