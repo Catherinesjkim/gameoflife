@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
-import { ButtonToolbar, Dropdown, DropdownButton, Link } from 'react-bootstrap';
+import { ButtonToolbar, Dropdown, DropdownButton, Button } from 'react-bootstrap';
+
 
 class Box extends React.Component {
   selectBox = () => {
@@ -84,12 +84,16 @@ class Buttons extends React.Component {
           <DropdownButton
             title="Grid Size"
             id="size-menu"
-            onSelect={this.handleSelect}
-          >
+            onSelect={this.handleSelect}>
             <Dropdown.Item eventKey="1">25x25</Dropdown.Item>
             <Dropdown.Item eventKey="2">50x30</Dropdown.Item>
             <Dropdown.Item eventKey="3">70x40</Dropdown.Item>
           </DropdownButton>
+          <>
+            <Button href="https://github.com/Catherinesjkim/Conways-Game-of-Life/blob/master/README.md">
+              Link
+            </Button>{" "}
+          </>
         </ButtonToolbar>
       </div>
     );

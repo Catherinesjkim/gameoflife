@@ -1,9 +1,4 @@
-import React from "react";
-//import GridContainer from './components/GridContainer';
-// import RulesContainer from "./components/RulesContainer";
-// import Title from "./components/Title";
-// import About from "./components/About";
-import Modal from './Component/Modal';
+import React, { useState } from "react";
 
 function App() {
   return (
@@ -13,7 +8,6 @@ function App() {
         {/* <GridContainer /> */}
         {/* <RulesContainer /> */}
       </div>
-      <Modal />
     </div>
   );
 }
