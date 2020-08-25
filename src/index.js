@@ -86,7 +86,7 @@ class Buttons extends React.Component {
             id="size-menu"
             onSelect={this.handleSelect}>
             <Dropdown.Item eventKey="1">25x25</Dropdown.Item>
-            <Dropdown.Item eventKey="2">50x30</Dropdown.Item>
+            <Dropdown.Item eventKey="2">50x35</Dropdown.Item>
             <Dropdown.Item eventKey="3">70x40</Dropdown.Item>
           </DropdownButton>
           <>
@@ -179,7 +179,7 @@ class Main extends React.Component {
       break;
       case "2":
         this.cols = 50;
-        this.rows = 30;
+        this.rows = 35;
       break;
       default:
         this.cols = 70;
